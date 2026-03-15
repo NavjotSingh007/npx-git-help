@@ -1,0 +1,35 @@
+{
+  "name": "git-help",
+  "version": "1.0.0",
+  "description": "npx commands to help with git",
+  "keywords": [
+    "git",
+    "git-help"
+  ],
+  "license": "ISC",
+  "author": "Navjot Singh",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "bin": {
+    "git-help": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsup src/index.ts --format cjs --clean",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "prettier": "^3.8.1",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}
