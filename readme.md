@@ -14,9 +14,9 @@ npx git-help-cli <command>
   Deletes all local branches that have been removed from the remote repository.
 
 ```bash
-npx npx-git-help-cli clean-up-gone-branches
+npx git-help-cli clean-up-gone-branches
 # or
-npx npx-git-help-cli cb
+npx git-help-cli cb
 ```
 
 ## Installation
