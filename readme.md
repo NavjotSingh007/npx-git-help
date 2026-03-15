@@ -1,11 +1,11 @@
-# npx-git-help
+# git-help-cli
 
 A CLI tool to provide quick help and usage examples for common Git commands using `npx`.
 
 ## Usage
 
 ```bash
-npx npx-git-help <command>
+npx git-help-cli <command>
 ```
 
 ## Available Commands
@@ -14,9 +14,9 @@ npx npx-git-help <command>
   Deletes all local branches that have been removed from the remote repository.
 
 ```bash
-npx npx-git-help clean-up-gone-branches
+npx npx-git-help-cli clean-up-gone-branches
 # or
-npx npx-git-help cb
+npx npx-git-help-cli cb
 ```
 
 ## Installation
