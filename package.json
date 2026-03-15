@@ -1,17 +1,17 @@
 {
-  "name": "git-help",
+  "name": "git-help-cli",
   "version": "1.0.0",
   "description": "npx commands to help with git",
   "keywords": [
     "git",
-    "git-help"
+    "git-help-cli"
   ],
   "license": "ISC",
   "author": "Navjot Singh",
   "type": "commonjs",
   "main": "dist/index.js",
   "bin": {
-    "git-help": "./dist/index.js"
+    "git-help-cli": "./dist/index.js"
   },
   "files": [
     "dist"
